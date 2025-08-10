@@ -14,9 +14,9 @@ class User(BaseModel):
     age: int
 
 #app - fast api variable to expose api
-@app.get("/users")
-def print_users():
-    return user_db
+# @app.get("/users")
+# def print_users():
+#     return user_db
 
 
 @app.put("/users/v1/update/{user_id}")
