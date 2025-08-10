@@ -17,7 +17,9 @@ class User(BaseModel):
 # @app.get("/users")
 # def print_users():
 #     return user_db
-
+@app.get("/")
+async def root():
+    return {"status": "ok"}
 
 @app.put("/users/v1/update/{user_id}")
 def user_update(user_id: int, user_details: User):
