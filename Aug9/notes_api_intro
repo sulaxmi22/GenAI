@@ -1,0 +1,30 @@
+- API (Application Programming Interface)
+    > Eg - Gpay
+    > Set of protocols
+    > No programming language
+    > It is basically the endpoint url 
+
+- FastAPI - framework, 
+- Uvicorn - to execute fastapi
+    # pip3 install fastapi
+    # pip3 install uvicorn
+    # uvicorn <filename>:app --reload
+
+- @ decorater to expose function 
+- where? - on that localhost port url
+- ../docs - Swagger UI
+- can access by curl "<url>" || Postman
+
+
+- Ngrok - download to expose the local functions to outer world
+    # ngrok http 8000
+
+- POST Request
+    > attaching data in a secure body not visible to uter world
+    > cannot expose data in URL unlike get
+    > Body - Raw - Json {"a": 1, "b": 2}
+    > post subtraction NOT WORKING hence Pydantic
+
+- Pydantic 
+    > set of rules to set a datatype
+    > data checks for POST request

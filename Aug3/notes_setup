@@ -1,0 +1,38 @@
+1. System Setup
+
+- Python download - 3.10
+- VSCode download - IDE
+- VSCode extensions 
+    > python by microsoft
+    > jupyter notebook by  (.ipynb)
+        Attach kernel for Jupyter notebook VSCode
+    > GitHub Copilot
+- Google collab - Similar to Jupyter notebook 
+    *(No download required)
+- Cursor download - AI IDE Vibe coding
+    > Its an IDE wrapper with integrated AI models
+- Firebase studio - Agentic cloud-based development environment 
+    *(No download required)
+
+
+2. Vibe coding 
+    > cursor
+    > windsurf
+    > firebase studio
+
+3. Api
+- FastAPI - framework, 
+- Uvicorn - to execute fastapi
+    # pip3 install fastapi
+    # pip3 install uvicorn
+    # uvicorn <filename>:app --reload
+
+- Ngrok download - expose localhost urls globally
+    # ngrok http 8000
+
+- Postman download
+
+4. Git
+    > git download 2.50.1
+
+
